@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Airbnb';
+    src: url(../../Assets/AirbnbCereal_W_Bd.otf);
+}
+
+body{
+    font-family: 'Airbnb';
+
+}
+.bgImage {
+    background-image: linear-gradient(rgba(241, 188, 15, 0.82), rgba(241, 188, 15, 0.82)),url("../../Assets/login.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnCustom{
+    /* background-color: #EFC81A !important; */
+    color: white !important;
+}
+.btnCustom1{
+    background-color: #EFC81A !important;
+    color: white !important;
+    width: 350px;
+}
+
+.btnCustom:hover{
+    background-color: #EFC81A !important;
+    color: white !important;
+}
+
+form div button a {
+    text-decoration: none;
+    color: white !important;
+}
+form div p a{
+    text-decoration: none;
+    color: #EFC81A !important;
+}
+form div a{
+    text-decoration: none;
+    color: #9b9898 !important;
+}
+.logincoy h3{
+    color: #EFC81A !important;
+}
+
+button{
+    margin-top: 30px;
+}

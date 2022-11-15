@@ -1,0 +1,160 @@
+.vidionext{
+    margin-top: 1px;
+    text-align: center;
+  }
+  .vidionext iframe{
+    padding-left: 20px;
+  }
+  .vidionext .vidiolagi p{
+    text-align: center;
+  }
+  .hal-vidio{
+    width: 100%;
+    display: flex;
+  }
+  .video-section{
+display: flex;
+flex-direction: row;
+margin-top: 100px;
+width: 1100px;
+height: 550px;
+}
+.video-section .thisVidSection embed{
+  height: 70vh;
+}
+.video-section .thisVidSection{
+height: 100vh;
+width: 100%;
+}
+
+.video-section .next-vid-section{
+display: flex;
+flex-direction: column;
+gap: 20px;
+height: 100%;
+width: 30%;
+padding-left: 20px;
+}
+
+.this-vid{
+width: 100%;
+height: 400px;
+}
+
+.this-vid-section h2{
+font-weight: 500;
+font-size: 24px;
+padding-top: 10px;
+}
+
+.this-vid-section p{
+color: #AAAAAA;
+font-size: 18px;
+}
+
+.next-vid-section h5{
+margin-top: 5px;
+padding-left: 20px;
+margin-left: -200px;
+}
+
+.next-vid-section .next-step{
+display: flex;
+flex-direction: column;
+gap: 5px;
+width: 80%;
+height: 150px;
+}
+
+.next-vid-section .next-step:hover{
+cursor: pointer;
+}
+
+.next-vid-section .next-step .next-step1-img{
+background-image: url(../../Assets/Rectangle\ 90.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+width: 100%;
+height: 70%;
+}
+
+.next-vid-section .next-step p{
+color:#ffffff;
+padding-top: 5px;
+padding-left: 5px;
+}
+
+.next-vid-section .next-step1-title{
+width: 100%;
+height: 30%;
+}
+
+.next-vid-section h6{
+font-size: 12px;
+margin-bottom: 0;;
+text-align: left;
+}
+
+.next-vid-section .next-step1-title p{
+font-size: 10px;
+margin-bottom: 0;
+padding-top: 0;
+padding-left: 0;
+color: #AAAAAA;
+}
+
+.next-vid-section .next-step .next-step2-img{
+background-image: url(../../Assets/Rectangle\ 91.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+width: 100%;
+height: 70%;
+}
+
+.next-vid-section .next-step2-title{
+width: 100%;
+height: 30%;
+}
+
+.next-vid-section .next-step2-title p{
+font-size: 10px;
+margin-bottom: 0;
+padding-top: 0;
+padding-left: 0;
+color: #AAAAAA;
+}
+  @media screen and (max-width: 640px){
+    .kata2 h1{
+        font-size: 12px;
+    }
+    .kata2 p{
+        font-size: 9px;
+    }
+    .vidio1{
+      width: 100%;
+      float: none;
+    }
+    .garissamping{
+      display: none;
+    }
+    .video-section{
+    flex-direction: column;
+}
+.video-section .next-vid-section{
+    width: 40%;
+    height: 900px;
+}
+.yellowLine{
+  /* margin-left: -210px; */
+}
+.video-section .thisVidSection embed {
+  width: 50%;
+  text-align: left;
+  margin-left: -700px;
+}
+  }
+.thisVidSection h2{
+  text-align: left;
+}

@@ -1,0 +1,354 @@
+@font-face {
+    font-family: 'Airbnb';
+    src: url(../../Assets/AirbnbCereal_W_Bd.otf);
+}
+
+body{
+    font-family: 'Airbnb';
+
+}
+.bgImage {
+    background-image: linear-gradient(rgba(241, 188, 15, 0.82), rgba(241, 188, 15, 0.82)),url("../../Assets/login.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnCustom{
+    /* background-color: #EFC81A !important; */
+    color: white !important;
+    background-color: #EFC81A !important;
+}
+.btnCustom1{
+    background-color: #EFC81A !important;
+    color: white !important;
+    width: 100% !important;
+     
+}
+.btLogin {
+    margin-top:  -100px;
+    
+}
+
+.btnCustom:hover{
+    background-color: #EFC81A !important;
+    color: white !important;
+    
+}
+
+form div button a {
+    text-decoration: none;
+    color: white !important;
+}
+form div p a{
+    text-decoration: none;
+    color: #EFC81A !important;
+}
+form div a{
+    text-decoration: none;
+    color: #9b9898 !important;
+}
+.logincoy h3{
+    color: #EFC81A !important;
+}
+.logincoy{
+    color: #696F79;
+    /* font-family:'Airbnb' ; */
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.content {
+    height: 100vh;
+    background-color: white;
+    width: 80%;
+}
+.decoration{
+    height: 110vh;
+    background-color: #efc81a;
+    width: 25%;
+}
+.navbar{
+    display: flex;
+    position: fixed;    
+}
+.navbar .primary-menu {
+    width: 80%;
+}
+.navbar .primary-menu ul{
+    display: flex;
+    list-style: none;
+}
+.navbar .primary-menu li{
+    padding: 10px 30px;
+}
+.navbar .primary-menu li a{
+    text-decoration: none;
+    color: #2e266f;
+}
+.navbar .secondary-menu{
+    width: 20%;
+}
+.navbar .secondary-menu ul {
+    display: flex;
+    list-style-type: none;
+}
+.navbar .secondary-menu ul li{
+    padding: 10px 285px;
+}
+.navbar .secondary-menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar .secondary-menu ul li .login{
+    display: flex;
+    align-items: center;
+}
+.navbar .secondary-menu ul li .login .icon{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.decoration img{
+    max-width: 35vw;
+    max-height: 47vw;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+.content .jumbroton{
+    position: absolute;
+    top:200px;
+    left: 100px;
+}
+.content .jumbroton h1{
+    width: 52%;
+    font-size: 50px;
+    color: #2e266f;
+    font-family: airbnb;
+}
+.content .jumbroton .form-group{
+    display: flex;
+    width: 50px;
+    height: 200px;
+    align-items: center;
+  
+}
+.content .jumbroton .form-group .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+}
+.content .jumbroton .form-group input{
+    width: 80%;
+    border: none;
+    align-items: center;
+    height: 40px;
+}
+.content .jumbroton .form-group input:focus {
+    outline: none;
+    border: none;
+}
+.search{
+background:rgb(238, 234, 234);
+height: 60px;
+position: absolute;
+top: 200px;
+width: 35vw;
+align-items: center;
+display: flex;
+border-radius: 15px;
+top: 200px;
+
+}
+.form{
+    align-items: center;
+    margin-left: 70px;
+}
+.vector{
+    background-image: url("../../Assets/search.png");
+    background-repeat: no-repeat;
+    border-radius: 0;
+    bottom: 50%;
+    height: 16px;
+    left: 10.35%;
+    position: absolute;
+    right: 89.43%;
+    top: 40.15%;
+    width: 16px;
+    color: black;
+}
+.icon img{
+    width: 30px;
+    z-index: 2;
+    margin-left: 40px;
+}
+.kotak img{
+    margin-top: 90px;
+    margin-left: 60px;
+    width: 600px;
+    height: 550px;
+    float: left;
+}
+.hal3 img{
+    margin-top: 50px;
+    width: 600px;
+    height: 550px;
+    margin-left: -660px;
+}
+ .narasi{
+    text-align: center;
+    padding-top: 250px;
+
+}
+.narasi button,
+.narasi button:focus {
+    margin-top: 20px;
+    outline: none;
+    width: 120px;
+    height: 40px;
+    background-color: #efc81a;
+    color: white;
+    border-radius: 5px;
+    border: none;
+} 
+.hal4{
+    background-color: #EFC81A;
+    width: 10px;
+    height: 90px;
+    margin-left: 50px;
+    /* margin-top: 500px; */
+}
+.container .hal4 h3{
+    margin-left: 30px;
+
+}
+.hal5 img{
+    width: 600px;
+    height: 550px;
+    padding-top: 90px;
+    padding-left: 40px;
+    margin-left: -320px;
+    float: left;
+    border-radius: 10px;
+}
+.kotakwarna{
+    background-color: #efc81a;
+    margin-top: 40px;
+    width: 400px;
+    height: 530px;
+    float: left;
+}
+.hal2{
+    width: 10px;
+    height: 100px;
+    background-color: #efc81a;
+    float: left;
+    position: absolute;
+    margin-left: 30px;
+}
+.hal21{
+    margin-left: 50px;
+}
+.hal5coy{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+.gambar{
+    float: left;
+    width: 60%;
+    padding-left: 50px;
+}
+.hal2coy{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+.lesson{
+    width: 33%;
+    float: left;
+}
+.lesson img{
+     max-width: 75vw;
+        max-height: 75vw;
+    
+}
+.lessons{
+    margin-top: 70px;
+    margin-left: 30px;
+    height: 380px;
+}
+.lesson p{
+    margin-top: -120px;
+    padding-left: 20px;
+    font-size: 32px;
+}
+.footer{
+background-color: #EFC81A;
+height: 400px;
+position: absolute;
+width: 100%;
+margin-top: 150px;
+}
+.footer .kata2{
+padding-top: 100px;
+text-align: center;
+color: #2E266F;
+}
+.footer .kata2 h1{
+padding-bottom: 20px;
+}
+.navbar-footer ul a{
+padding-left: 20px;
+color: black;
+}
+.navbar-footer{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 9px;
+    margin-left: -70px;
+}
+.logo{
+float: right;
+margin-top: -30px;
+margin-right: 100px;
+font-size: 8px;
+}
+.textEnd .lPass Link p{
+    margin-left: 200px;
+}
+.lPass {
+    margin-left: 220px;
+}
+.lPass p{
+    font-size: 14px;
+}
+.form-check1 label p{
+    font-size: 12px;
+    margin-top: -100px;
+}
+.form-check1 {
+    /* height: 100px !important; */
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.text-muted1{
+    color:#999999 ;
+    font-size: 14px;
+    text-align: center;
+}

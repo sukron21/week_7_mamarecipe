@@ -1,0 +1,626 @@
+@font-face {
+    font-family: 'Airbnb';
+    src: url(../../Assets/AirbnbCereal_W_Bd.otf);
+}
+
+body{
+    font-family: 'Airbnb';
+    src: url(../../Assets/AirbnbCereal_W_Bd.otf);
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.content {
+    height: 100vh;
+    background-color: white;
+    width: 80%;
+}
+.decoration{
+    height: 110vh;
+    background-color: #efc81a;
+    width: 25%;
+    margin-top: -100px;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    margin-top: 20px;   
+}
+.navbar .primaryMenu {
+    width: 80%;
+}
+.navbar .primaryMenu ul{
+    display: flex;
+    list-style: none;
+}
+.navbar .primaryMenu li{
+    padding: 10px 30px;
+}
+.navbar .primaryMenu li a{
+    text-decoration: none;
+    color: #2e266f;
+    font-family:'Airbnb' ;
+}
+.navbar .secondary-menu{
+    width: 20%;
+    margin-left: -200px;
+}
+.navbar .secondary-menu ul {
+    display: flex;
+    list-style-type: none;
+}
+.navbar .secondary-menu ul li{
+    padding: 10px 285px;
+}
+.navbar .secondary-menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar .secondary-menu ul li .login{
+    display: flex;
+    align-items: center;
+    
+}
+.navbar .secondary-menu ul li .login img{
+    margin-left: -2000px;
+}
+.navbar .secondary-menu ul li .login .icon{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.decoration img{
+    max-width: 35vw;
+    max-height: 47vw;
+    position: absolute;
+    top: 130px;
+    right: 100px;
+}
+.content .jumbroton{
+    position: absolute;
+    top:200px;
+    left: 100px;
+}
+.content .jumbroton h1{
+    width: 52%;
+    font-size: 50px;
+    color: #2e266f;
+    font-family: Airbnb;
+
+}
+.content .jumbroton .form-group{
+    display: flex;
+    width: 50px;
+    height: 200px;
+    align-items: center;
+  
+}
+.content .jumbroton .form-group .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+}
+.content .jumbroton .form-group input{
+    width: 80%;
+    border: none;
+    align-items: center;
+    height: 40px;
+}
+.content .jumbroton .form-group input:focus {
+    outline: none;
+    border: none;
+}
+.search{
+background:rgb(238, 234, 234);
+height: 60px;
+position: absolute;
+top: 200px;
+width: 35vw;
+align-items: center;
+display: flex;
+border-radius: 15px;
+top: 200px;
+
+}
+.form{
+    align-items: center;
+    margin-left: 70px;
+}
+.vector{
+    background-image: url("../../Assets/search.png");
+    background-repeat: no-repeat;
+    border-radius: 0;
+    bottom: 50%;
+    height: 16px;
+    left: 10.35%;
+    position: absolute;
+    right: 89.43%;
+    top: 40.15%;
+    width: 16px;
+    color: black;
+}
+.icon img{
+    width: 30px;
+    z-index: 2;
+    margin-left: 40px;
+}
+.kotak img{
+    margin-top: 90px;
+    margin-left: 60px;
+    width: 40vw;
+    height: 80vh;
+    float: left;
+}
+.hal3 img{
+    margin-top: 50px;
+    width: 40vw;
+    height: 80vh;
+
+}
+ .narasi{
+    text-align: left;
+    padding-top: 150px;
+    width: 40%;
+    position:relative;
+    margin-left: 30px;
+    font-family: 'Airbnb';
+    margin-top: 70px;
+    color: #3F3A3A;
+
+}
+.narasi p{
+    text-align: left;
+    color: #3F3A3A;
+}
+.narasi button,
+.narasi button:focus {
+    margin-top: 20px;
+    outline: none;
+    width: 120px;
+    height: 40px;
+    background-color: #efc81a;
+    color: white;
+    border-radius: 5px;
+    border: none;
+} 
+.hal4{
+    background-color: #EFC81A;
+    width: 10px;
+    height: 90px;
+    margin-left: 50px;
+    /* margin-top: 500px; */
+}
+.container .hal4 h3{
+    margin-left: 30px;
+
+}
+.hal5 img{
+    width: 40vw;
+    height: 85vh;
+    padding-top: 90px;
+    padding-left: 40px;
+    margin-top: -500px;
+    border-radius: 10px;
+    margin-left: 70px;
+}
+.kotakwarna{
+    background-color: #efc81a;
+    margin-top: 40px;
+    width: 23vw;
+    height: 70vh;
+    float: left;
+}
+.hal2{
+    width: 10px;
+    height: 100px;
+    background-color: #efc81a;
+    float: left;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -200px  ;
+}
+.hal21 h3{
+    margin-top: -200px  ;
+    position: absolute;
+    margin-left: -50px;
+}
+.hal5coy{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    /* margin-left: -400px; */
+    margin-top: -200px;
+    position: absolute;
+}
+.gambar2{
+    float: left;
+    width: 60%;
+    padding-left: 50px;
+    margin-left: -200px;
+}
+.gambar{
+    float: left;
+    width: 60%;
+    padding-left: 50px;
+    margin-left: 200px;
+}
+.hal2coy{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    margin-top: -200px;
+    margin-left: -90px;
+}
+.gambar6 {
+    margin-top: 400px;
+    height: 800px;
+}
+.lesson{
+    width: 33%;
+    float: left;
+    border: none;
+}
+.lesson img{
+     max-width: 25vw;
+    max-height: 25vw;
+    
+    
+}
+.lessons{
+    width: 100%;
+    margin-top: 100px;
+    margin-left: -10px;
+    /* height: 780px; */
+}
+.lessons1{
+    width: 100%;
+    margin-top: -50px;
+    margin-left: -10px;
+    /* height: 780px; */
+}
+.lesson p{
+    margin-top: -120px;
+    padding-left: 20px;
+    font-size: 32px;
+}
+.footer{
+background-color: #EFC81A;
+height: 400px;
+position: absolute;
+width: 100%;
+margin-top: 150px;
+}
+.footer .kata2{
+padding-top: 100px;
+text-align: center;
+color: #2E266F;
+}
+.footer .kata2 h1{
+padding-bottom: 20px;
+}
+.navbar-footer ul a{
+padding-left: 20px;
+color: black;
+}
+.navbar-footer{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 9px;
+    margin-left: -70px;
+}
+.logo{
+float: right;
+margin-top: -30px;
+margin-right: 100px;
+font-size: 8px;
+}
+.login{
+    margin-right: 50px;
+}
+.login img {
+    width: 60px;
+    padding-right: 10px;
+}
+.kotak{
+    margin-left: -200px;
+    margin-top: -50px;
+}
+.hal3{
+    /* margin-left: 2; */
+    margin-left: 480px;
+}
+.hal22{
+    margin-top: 200px;
+}
+.hal23{
+    width: 10px;
+    height: 100px;
+    background-color: #efc81a;
+    float: left;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -200px  ;
+}
+.hal24 h3{
+    margin-top: -200px  ;
+    position: absolute;
+}
+.hal26{
+    width: 10px;
+    height: 100px;
+    background-color: #efc81a;
+    float: left;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 350px  ;
+}
+.hal27 h3{
+    margin-top: 350px  ;
+    position: absolute;
+}
+.narasi1{
+    text-align: left;
+    padding-top: 150px;
+    width: 40%;
+    position:relative;
+    margin-left: 80px;
+    font-family: 'Airbnb';
+    margin-top: 70px;
+    color: #3F3A3A;
+
+}
+.narasi1 p{
+    text-align: left;
+    color: #3F3A3A;
+}
+.narasi1 button,
+.narasi1 button:focus {
+    margin-top: 20px;
+    outline: none;
+    width: 120px;
+    height: 40px;
+    background-color: #efc81a;
+    color: white;
+    border-radius: 5px;
+    border: none;
+} 
+@media screen and (max-width: 640px){
+    .gambar{
+        width: 100%;
+        float: none !important; 
+        margin-left: 350px;
+    }
+    .content .jumbroton h1{
+        width: 52%;
+        font-size: 20px;
+        color: #2e266f;
+        font-family: Airbnb;
+    
+    }
+    .search{
+        background:rgb(238, 234, 234);
+        height: 60px;
+        position: absolute;
+        top: 50px;
+        width: 35vw;
+        align-items: center;
+        display: flex;
+        border-radius: 15px;
+        
+        
+        }
+    .narasi{
+        text-align: left;
+        padding-top: 150px;
+        width: 100%;
+        position:relative;
+            /* margin-left: 700px; */
+        font-family: 'Airbnb';
+        margin-top: 250px;
+        margin-left: -600px;
+    }
+    .narasi h3 {
+        font-size: 18px;
+        color: #3F3A3A;
+        ;
+    }
+    .narasi p{
+        font-size: 10px;
+        color: #3F3A3A;
+    }
+    .narasi button,
+.narasi button:focus {
+    margin-top: -120px;
+    outline: none;
+    width: 90px;
+    height: 30px;
+    background-color: #efc81a;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+    .kotak img{
+        margin-top: 90px;
+        margin-left: 60px;
+        width: 40vw;
+        height: 50vh;
+        float: left;
+    }
+    .hal3 img{
+        margin-top: 50px;
+        width: 40vw;
+        height: 50vh;
+    
+    }
+    .search{
+        background:rgb(238, 234, 234);
+        height: 30px;
+        position: absolute;
+        top: 50px;
+        width: 25vw;
+        align-items: center;
+        display: flex;
+        border-radius: 15px;
+        }
+    .icon img{
+        width: 10px;
+        z-index: 2;
+        margin-left: 40px;
+    }
+    .content .jumbroton .form-group input{
+        width: 60%;
+        border: none;
+        align-items: center;
+        height: 10px;
+        margin-left: 30px;
+    }
+    .content .jumbroton .form-group input ::placeholder{
+        font-size: 8px;
+    }
+    .decoration{
+        height: 75vh;
+        background-color: #efc81a;
+        width: 25%;
+        margin-top: -100px;
+    }
+    .hal2{
+        width: 10px;
+        height: 70px;
+        background-color: #efc81a;
+        float: left;
+        position: absolute;
+        margin-left: -30px;
+        margin-top: -350px  ;
+    }
+    .hal21 h3{
+        margin-top: -350px  ;
+        position: absolute;
+        font-size: 18px;
+        margin-left: -50px;
+    }
+    .hal2coy{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        margin-top: -400px;
+        margin-left: -90px;
+    }
+    .narasi1{
+        text-align: left;
+        padding-top: 150px;
+        width: 100%;
+        position:relative;
+            /* margin-left: 700px; */
+        font-family: 'Airbnb';
+        margin-top: 250px;
+        margin-left: -250px;
+    }
+    .narasi1 h3 {
+        font-size: 18px;
+        color: #3F3A3A;
+        ;
+    }
+    .narasi1 p{
+        font-size: 10px;
+        color: #3F3A3A;
+    }
+    .narasi1 button,
+.narasi1 button:focus {
+    margin-top: -120px;
+    outline: none;
+    width: 90px;
+    height: 30px;
+    background-color: #efc81a;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+ .gambar2{
+    float: left;
+    width: 60%;
+    padding-left: 50px;
+    margin-left: 100px;
+
+}.hal5 img{
+    width: 45vw;
+    height: 60vh;
+    padding-top: 90px;
+    padding-left: 40px;
+    margin-top: -330px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.kotakwarna{
+    background-color: #efc81a;
+    margin-top: 40px;
+    width: 23vw;
+    height: 45vh;
+    float: left;
+}
+.hal23{
+    width: 10px;
+    height: 70px;
+    background-color: #efc81a;
+    float: left;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -200px  ;
+}
+.hal24 h3{
+    margin-top: -200px  ;
+    position: absolute;
+    font-size: 18px;
+}.hal26{
+    width: 10px;
+    height: 70px;
+    background-color: #efc81a;
+    float: left;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 350px  ;
+}
+.hal27 h3{
+    margin-top: 350px  ;
+    position: absolute;
+    font-size: 18px;
+}
+.lesson{
+    width: 100%;
+    float: none;
+    border: none;
+    height: 200px;
+}
+.lesson p{
+    margin-top: -50px;
+    padding-left: 180px;
+    font-size: 14px;
+    font-family: 'Airbnb';
+}
+.lessons{
+   padding-top: 40px;
+   margin-top: -100px;
+}
+.lessons1{
+    padding-top: 10px;
+    margin-top: 20px;
+ }
+ .gambar6 {
+    height: 1300px;
+
+ }      
+        
+
+}

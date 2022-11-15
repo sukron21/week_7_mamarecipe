@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@font-face {
+    font-family: 'airbnb';
+    src: url(../../Assets/AirbnbCereal_W_Bd.otf);
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'airbnb';
+
+}
+.navbar2 a{
+    padding-left: 40px;
+    color: #2E266F;
+    font-family: 'airbnb';
+    
+}
+.navbar2{
+    padding-top: 40px;
+    display: flex;
+}
+.container{
+    padding-top: 90px;
+    text-align: center;
+    color: #2E266F;
+}
+.container img{
+    padding-top: 50px;
+    width: 750px;
+    height: 500px;
+}
+.container .hal25{
+    padding-top: 70px;
+    text-align: left;
+    color: #3F3A3A;
+    text-size-adjust: 12px;
+    font-family: airbnb;
+}
+.container .hal25 h3{
+    padding-bottom: 10px;
+}
+.btnCustom1{
+/* background-color: orange !important; */
+color: white !important;
+width: 250px;
+height: 40px;
+}
+.btnCustom1 a img{
+    width: 10px;
+    height:60px;
+    z-index: 2;
+    margin-top: -50px;
+
+}
+.hal35{
+    text-align: left;
+    color:  #3F3A3A;
+;
+    margin-top: -50px;
+}
+.container .submit1{
+    width: 100px;
+}
+.komen .hal455 img{
+    width: 50px;
+    height: 100px;
+}
+.komen .hal455{
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 200px;
+    font-family: airbnb;
+}
+.komen .hal455 p{
+    font-style: sans-serif;
+    padding-left: 75px;
+    margin-top: -40px;
+    font-size: 10px;
+}
+.komen .hal455 span{
+    margin-top: 100px;
+    margin-left: 25px;
+}
+.foot{
+    background-color: #EFC81A;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    text-align: center;
+}
+.foot .kata2{
+    padding-top: 150px;
+}
+.foot .kata2 h1{
+    padding-bottom: 20px;
+}
+.navbar3{
+    padding-top: 100px;
+    margin-left: -60px;
+    font-size:  9px;
+}
+.navbarFooter ul a{
+    padding-left: 20px;
+    color: black;
+}
+.logo{
+    float: right;
+    margin-top: -30px;
+    margin-right: 100px;
+    font-size: 8px;
+}
+.vidio1{
+    text-align: left;
+    float: left;
+    width: 70%;
+}
+.vidio1 iframe{
+    width: 100%;
+    height: 400px;
+    }
+.vidio1 h3{
+    text-align: left;
+    padding-top: 20px;
+    color: black;
+}
+.vidionext iframe{
+    width: 250px;
+    height: auto;
+}
+.vidionext p{
+    text-align: center;
+}
+.vidionext{
+    margin-top: -80px;
+    width: 30%;
+}
+.garissamping{
+    /* background: #EFC81A; */
+    width: 30px;
+    height: 1000px;
+    float: left;
+}
+ .add-photo{
+    background-color: #F6F5F4;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    
+}
+.container .add-photo img{
+    width: 50px;
+    height: 100px;
+}
+.judul textarea{
+    /* background-color: #F6F5F4; */
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 50px;
+}
+.ingredients{
+    margin-top: 20px;
+}
+.btnCustom1 a{
+    color: #F6F5F4;
+}
+.btn-custom{
+    margin-top: 20px;
+}
+.photop img{
+    width: 150px;
+    height: 200px;
+}
+.photop2 img{
+    width: 30px;
+    height: 70px;
+    margin-top: -150px;
+    margin-left: 200px;
+}
+p{
+    text-align: left;
+    margin-top: 70px;
+}
+.lesson{
+float:left;
+width: 25%;
+height: 300px;
+/* background-color: white; */
+}
+.lesson .lesson-icon img{
+    width: 260px;
+    height: 240px;
+    padding-left: 20px;
+}
+.lesson-icon p{
+position:absolute;
+ width:100%;
+ color:white;
+ margin-left: 30px;
+ font-size: 22px;
+ margin-top: -80px;
+}
+.btnaja{
+    color: black;
+    margin-top: -200px;
+    text-align: center;
+}
+.kata21{
+    padding-top: 100px;
+}
+.kata21 p{
+    text-align: center;
+    margin-top: -5px;
+    color: #707070;
+}
+.navbar31{
+    padding-top: 150px;
+    margin-left: -90px;
+    text-align: center;
+}
+.navbar31 .navbarFooter a{
+    font-size: 10px;
+    color: #707070;
+}
+.logo1{
+    float: right;
+    margin-right: 100px;
+    margin-top: -80px;
+}
+.logo1 p{
+    font-size: 8px;
+    color: black;
+}
+.container .halcolapse{
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    font-family: 'airbnb';
+}
+.container .navbar2{
+
+  margin-top: -80px;
+}
+.navbar2{
+  padding-left: 20px;
+  display: flex;
+  position: fixed;
+}
+.dropdown{
+  margin-left: 320px;
+  margin-top: -90px;
+}
+.photop{
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+.photop p{
+  text-align: center;
+  font-size: 20px;
+} 
+
+.btnCustom .btn1{
+  background-color: white;
+  border: none;
+}
+.btnCustom p{
+    font-family: 'airbnb';
+}
+.btn1 img{
+  width: 20px;
+  height: 90px;
+}
+.img1 img{
+  margin-left: 180px;
+  margin-top: -130px;
+}
+.btn1 p{
+  margin-top: -20px;
+}
+.lessons{
+  margin-top: -100px;
+  height: 400px;
+}
+.footer{
+  position: absolute;
+}
+.btnCustom2{
+    /* background-color: orange !important; */
+    color: white !important;
+    width: 250px;
+    height: 40px;
+    }
+.btnCustom2 a img{
+    width: 10px;
+    height:60px;
+    z-index: 2;
+    margin-top: -50px;
+    
+    }
+.btnCustom2{
+        background-color: #EFC81A !important;
+        color: white !important;
+        width: 350px;
+        margin-top: 30px;
+    }
+.btnCustom2 a{
+    color: #F6F5F4;
+}
+.btnpost2{
+    text-align: center;
+    background-color: #EFC81A !important;
+    width: 350px;
+    margin-top: 30px;
+    /* float: left; */
+    place-items: center;
+}
+/* .buttonDetail{
+    padding-left: 1000px;
+} */
+
+@media screen and (max-width: 640px){
+.lesson{
+  width: 100%;
+  height: auto;
+}
+.lessons{
+  margin-top: -100px;
+  height: 600px;
+}
+.kata2 h1{
+    font-size: 12px;
+}
+.kata2 p{
+    font-size: 9px;
+}
+}
+.ingredients1 textarea{
+    width: 100%;
+    height: 300px;
+}
+.hal35 img{
+    margin-top: -30px;
+    width: 20px;
+    height: 20px;
+}
+img{
+    border-radius: 5px;
+  }
+  .hal1{
+    width: 100%;
+  }
+  .hal1 img{
+    max-width: 75vw;
+    max-height: 75vw;
+  }
+  .hal1 h1{
+    margin-top: 90px;
+  }
+  .ingredients1{
+    width: 100%;
+
+  }
+  .ingredients1 textarea{
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F6F5F4;
+
+  }
+  @media screen and (max-width: 640px){
+    .kata2 h1{
+        font-size: 12px;
+    }
+    .kata2 p{
+        font-size: 9px;
+    }
+    .hal2{
+      text-align: center;
+    }
+}
