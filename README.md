@@ -39,7 +39,7 @@ REACT_APP_API_URL=YOUR_API_URL
 
 Contributors names and contact info:
 
-1. Andry Pebrianto
+1. Rahmat Furqon
 
 - [Linkedin](linkedin.com/in/furqon-rahmat)
 
