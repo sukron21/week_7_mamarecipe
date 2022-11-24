@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+## About The Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Koleksi Resep is a web application for sharing recipes with features to register, login, forgot password, edit profile, create recipes, edit recipes, delete recipes, comments, and also features to upload recipe videos. This web application is built using ReactJS, ExpressJS, and PostgreSQL.
 
-## Available Scripts
+### Technology Used
+- [ReactJS](https://reactjs.org/)
+- [Redux](https://redux.js.org/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Axios](https://github.com/axios/axios)
+- [Moment](https://momentjs.com/)
 
-In the project directory, you can run:
+<!-- GETTING STARTED -->
+## Getting Started
 
-### `npm start`
+### Installation
+- Clone This Repository
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+`https://github.com/sukron21/week_7_mamarecipe`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Install Module
 
-### `npm test`
+`npm install`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Setting .env
 
-### `npm run build`
+```bash
+REACT_APP_APP_NAME=YOUR_APP_NAME
+REACT_APP_NODE_ENV=YOUR_CURRENT_ENVIRONMENT
+REACT_APP_API_URL=YOUR_API_URL
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Executing program
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Run this project with `npm run start`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- SCREENSHOT -->
+## Screenshot
 
-### `npm run eject`
+### Login
+<img src="./readme/ss-login.jpg" />
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Register
+<img src="./readme/ss-register.jpg" />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Landing
+<img src="./readme/ss-landing.jpg" />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### List Recipe
+<img src="./readme/ss-list.jpg" />
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Detail Recipe
+<img src="./readme/ss-detail.jpg" />
 
-## Learn More
+### Add Recipe
+<img src="./readme/ss-add.jpg" />
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Edit Recipe
+<img src="./readme/ss-edit.jpg" />
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Profile
+<img src="./readme/ss-profile.jpg" />
 
-### Code Splitting
+<!-- RELATED PROJECT -->
+## Related Project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [Koleksi Resep API](https://github.com/andry-pebrianto/koleksi-resep-api)
+- [Koleksi Resep Demo](https://koleksi-resep.netlify.app/)
 
-### Analyzing the Bundle Size
+<!-- CONTACT INFO -->
+## Contact Info
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributors names and contact info:
 
-### Making a Progressive Web App
+1. Andry Pebrianto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [Linkedin](linkedin.com/in/furqon-rahmat)
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the LICENSE file for details
